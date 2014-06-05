@@ -1,0 +1,46 @@
+/*
+ * CSS is Patrotic
+ *   By Ildar Sagdejev ( http://twitter.com/tknomad )
+ *
+ * Official flag proportions:
+ *   http://www.usflag.org/flagspecs.html
+ */
+.flag {
+  width: 798px;
+  height: 420px;
+  background-image: linear-gradient(#f00 50%, #fff 50%);
+  -webkit-background-size: 1px 64.61538461538461px;
+  -moz-background-size: 1px 64.61538461538461px;
+  background-size: 1px 64.61538461538461px;
+}
+.flag .union {
+  width: 319.2px;
+  height: 226.15384615384616px;
+  background-color: #00008b;
+  position: relative;
+}
+.flag .union .stars {
+  width: 299.712px;
+  height: 206.66584615384616px;
+  margin: 9.744px;
+  position: absolute;
+  background: linear-gradient(-30deg, #00008b 4.382%, transparent 0) -15.84% 13.1%, linear-gradient(30deg, #00008b 4.382%, transparent 0) 6.1% 13.1%, linear-gradient(-71deg, #fff 8.6%, transparent 0) -15.84% 13.1%, linear-gradient(71deg, #fff 8.6%, transparent 0) 6.1% 13.1%, linear-gradient(-144deg, #fff 9%, transparent 0) -15.84% 6.8%, linear-gradient(144deg, #fff 9%, transparent 0) 6.1% 6.8%, linear-gradient(-30deg, #00008b 4.382%, transparent 0) -4.84% 27.299999999999997%, linear-gradient(30deg, #00008b 4.382%, transparent 0) 17.1% 27.299999999999997%, linear-gradient(-71deg, #fff 8.6%, transparent 0) -4.84% 27.299999999999997%, linear-gradient(71deg, #fff 8.6%, transparent 0) 17.1% 27.299999999999997%, linear-gradient(-144deg, #fff 9%, transparent 0) -4.84% 21%, linear-gradient(144deg, #fff 9%, transparent 0) 17.1% 21%;
+  -webkit-background-size: 18% 22%;
+  -moz-background-size: 18% 22%;
+  background-size: 18% 22%;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-color: #dbdbdb;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flag {
+  -webkit-box-shadow: 4px 4px 18px 6px rgba(0,0,0,0.6);
+  box-shadow: 4px 4px 18px 6px rgba(0,0,0,0.6);
+}
