@@ -25,9 +25,9 @@
   margin: 9.744px;
   position: absolute;
   background: linear-gradient(-30deg, #00008b 4.382%, transparent 0) -15.84% 13.1%, linear-gradient(30deg, #00008b 4.382%, transparent 0) 6.1% 13.1%, linear-gradient(-71deg, #fff 8.6%, transparent 0) -15.84% 13.1%, linear-gradient(71deg, #fff 8.6%, transparent 0) 6.1% 13.1%, linear-gradient(-144deg, #fff 9%, transparent 0) -15.84% 6.8%, linear-gradient(144deg, #fff 9%, transparent 0) 6.1% 6.8%, linear-gradient(-30deg, #00008b 4.382%, transparent 0) -4.84% 27.299999999999997%, linear-gradient(30deg, #00008b 4.382%, transparent 0) 17.1% 27.299999999999997%, linear-gradient(-71deg, #fff 8.6%, transparent 0) -4.84% 27.299999999999997%, linear-gradient(71deg, #fff 8.6%, transparent 0) 17.1% 27.299999999999997%, linear-gradient(-144deg, #fff 9%, transparent 0) -4.84% 21%, linear-gradient(144deg, #fff 9%, transparent 0) 17.1% 21%;
-  -webkit-background-size: 18% 22%;
-  -moz-background-size: 18% 22%;
-  background-size: 18% 22%;
+  -webkit-background-size: 18.181818181818183% 22.22222222222222%;
+  -moz-background-size: 18.181818181818183% 22.22222222222222%;
+  background-size: 18.181818181818183% 22.22222222222222%;
 }
 html {
   height: 100%;
