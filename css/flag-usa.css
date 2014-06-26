@@ -37,12 +37,16 @@
   -moz-background-size: 18.181818181818183% 22.22222222222222%;
   background-size: 18.181818181818183% 22.22222222222222%;
 }
+@font-face {
+  font-family: Oswald;
+  src: url("../fonts/oswald.woff") format('woff'), url("../fonts/oswald.otf") format('opentype');
+}
 html {
   height: 100%;
 }
 body {
-  height: 100%;
-  background-color: #bd0000;
+  min-height: 100%;
+  background-color: #570000;
   margin: 0;
   display: -webkit-box;
   display: -moz-box;
@@ -50,6 +54,12 @@ body {
   display: -ms-flexbox;
   display: box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
   -webkit-box-align: center;
   -moz-box-align: center;
   -o-box-align: center;
@@ -62,8 +72,44 @@ body {
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
+  overflow: scroll;
 }
 .flag {
   -webkit-box-shadow: 4px 4px 18px 6px rgba(0,0,0,0.6);
   box-shadow: 4px 4px 18px 6px rgba(0,0,0,0.6);
+  margin: 1.2em auto;
+}
+a {
+  color: #ff0;
+  text-decoration: none;
+}
+.notice {
+  font-family: Oswald;
+  font-size: 21px;
+  color: #ccc;
+  text-shadow: 1px 1px 2px #000;
+  background-image: -webkit-radial-gradient(ellipse closest-side, rgba(0,0,0,0.33), transparent);
+  background-image: -moz-radial-gradient(ellipse closest-side, rgba(0,0,0,0.33), transparent);
+  background-image: -o-radial-gradient(ellipse closest-side, rgba(0,0,0,0.33), transparent);
+  background-image: -ms-radial-gradient(ellipse closest-side, rgba(0,0,0,0.33), transparent);
+  background-image: radial-gradient(ellipse closest-side, rgba(0,0,0,0.33), transparent);
+  text-align: center;
+  margin: 0 1em;
+}
+.notice h1 {
+  color: #ececec;
+  text-transform: uppercase;
+  border-bottom: 1px #fff solid;
+  display: inline-block;
+  margin: 0;
+}
+.notice p {
+  margin: 0.5em auto;
+}
+.notice p a:hover {
+  color: #ff4700;
+}
+.notice .link {
+  text-shadow: none;
+  display: block;
 }

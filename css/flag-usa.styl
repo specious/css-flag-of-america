@@ -76,14 +76,46 @@ margin_union = h * (0.054 - 0.0616/2)
 // Presentation
 //
 
+@font-face
+  // source: http://www.fontsquirrel.com/fonts/oswald
+  font-family Oswald
+  src url('../fonts/oswald.woff') format('woff'), url('../fonts/oswald.otf') format('opentype')
+
 html
   height 100%
 body
-  height 100%
-  background-color #bd0000
+  min-height 100%
+  background-color #570000
   margin 0
   display flex
+  flex-flow column
   align-items center
   justify-content center
+  overflow scroll
 .flag
   box-shadow 4px 4px 18px 6px rgba(0,0,0,0.6)
+  margin 1.2em auto
+a
+  color yellow
+  text-decoration none
+.notice
+  font-family Oswald
+  font-size 21px
+  color #ccc
+  text-shadow 1px 1px 2px black
+  background-image radial-gradient(ellipse closest-side, rgba(0,0,0,0.33), transparent)
+  text-align center
+  margin 0 1em
+  h1
+    color #ececec
+    text-transform uppercase
+    border-bottom 1px white solid
+    display inline-block
+    margin 0
+  p
+    margin 0.5em auto
+    a:hover
+      color #ff4700
+  .link
+    text-shadow none
+    display block
