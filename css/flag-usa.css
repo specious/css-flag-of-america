@@ -46,7 +46,6 @@ html {
 }
 body {
   min-height: 100%;
-  background-color: #570000;
   margin: 0;
   display: -webkit-box;
   display: -moz-box;
@@ -73,6 +72,18 @@ body {
   -webkit-justify-content: center;
   justify-content: center;
   overflow: scroll;
+/* Pattern by: Nate Eagle
+   *   http://lea.verou.me/css3patterns/#upholstery
+   */
+  background: -webkit-radial-gradient(#8a0000 4%, #5c0000 9%, rgba(102,0,0,0) 9%) 0 0, -webkit-radial-gradient(#8a0000 4%, #5c0000 8%, rgba(102,0,0,0) 10%) 50px 50px, -webkit-radial-gradient(rgba(153,0,0,0.8) 20%, rgba(102,0,0,0)) 50px 0, -webkit-radial-gradient(rgba(153,0,0,0.8) 20%, rgba(102,0,0,0)) 0 50px, -webkit-radial-gradient(#600 35%, rgba(102,0,0,0) 60%) 50px 0, -webkit-radial-gradient(#600 35%, rgba(102,0,0,0) 60%) 100px 50px, -webkit-radial-gradient(rgba(77,0,0,0.7), rgba(102,0,0,0)) 0 0, -webkit-radial-gradient(rgba(77,0,0,0.7), rgba(102,0,0,0)) 50px 50px, -webkit-linear-gradient(45deg, rgba(102,0,0,0) 49%, #000 50%, rgba(102,0,0,0) 70%) 0 0, -webkit-linear-gradient(135deg, rgba(102,0,0,0) 49%, #000 50%, rgba(102,0,0,0) 70%) 0 0;
+  background: -moz-radial-gradient(#8a0000 4%, #5c0000 9%, rgba(102,0,0,0) 9%) 0 0, -moz-radial-gradient(#8a0000 4%, #5c0000 8%, rgba(102,0,0,0) 10%) 50px 50px, -moz-radial-gradient(rgba(153,0,0,0.8) 20%, rgba(102,0,0,0)) 50px 0, -moz-radial-gradient(rgba(153,0,0,0.8) 20%, rgba(102,0,0,0)) 0 50px, -moz-radial-gradient(#600 35%, rgba(102,0,0,0) 60%) 50px 0, -moz-radial-gradient(#600 35%, rgba(102,0,0,0) 60%) 100px 50px, -moz-radial-gradient(rgba(77,0,0,0.7), rgba(102,0,0,0)) 0 0, -moz-radial-gradient(rgba(77,0,0,0.7), rgba(102,0,0,0)) 50px 50px, -moz-linear-gradient(45deg, rgba(102,0,0,0) 49%, #000 50%, rgba(102,0,0,0) 70%) 0 0, -moz-linear-gradient(135deg, rgba(102,0,0,0) 49%, #000 50%, rgba(102,0,0,0) 70%) 0 0;
+  background: -o-radial-gradient(#8a0000 4%, #5c0000 9%, rgba(102,0,0,0) 9%) 0 0, -o-radial-gradient(#8a0000 4%, #5c0000 8%, rgba(102,0,0,0) 10%) 50px 50px, -o-radial-gradient(rgba(153,0,0,0.8) 20%, rgba(102,0,0,0)) 50px 0, -o-radial-gradient(rgba(153,0,0,0.8) 20%, rgba(102,0,0,0)) 0 50px, -o-radial-gradient(#600 35%, rgba(102,0,0,0) 60%) 50px 0, -o-radial-gradient(#600 35%, rgba(102,0,0,0) 60%) 100px 50px, -o-radial-gradient(rgba(77,0,0,0.7), rgba(102,0,0,0)) 0 0, -o-radial-gradient(rgba(77,0,0,0.7), rgba(102,0,0,0)) 50px 50px, -o-linear-gradient(45deg, rgba(102,0,0,0) 49%, #000 50%, rgba(102,0,0,0) 70%) 0 0, -o-linear-gradient(135deg, rgba(102,0,0,0) 49%, #000 50%, rgba(102,0,0,0) 70%) 0 0;
+  background: -ms-radial-gradient(#8a0000 4%, #5c0000 9%, rgba(102,0,0,0) 9%) 0 0, -ms-radial-gradient(#8a0000 4%, #5c0000 8%, rgba(102,0,0,0) 10%) 50px 50px, -ms-radial-gradient(rgba(153,0,0,0.8) 20%, rgba(102,0,0,0)) 50px 0, -ms-radial-gradient(rgba(153,0,0,0.8) 20%, rgba(102,0,0,0)) 0 50px, -ms-radial-gradient(#600 35%, rgba(102,0,0,0) 60%) 50px 0, -ms-radial-gradient(#600 35%, rgba(102,0,0,0) 60%) 100px 50px, -ms-radial-gradient(rgba(77,0,0,0.7), rgba(102,0,0,0)) 0 0, -ms-radial-gradient(rgba(77,0,0,0.7), rgba(102,0,0,0)) 50px 50px, -ms-linear-gradient(45deg, rgba(102,0,0,0) 49%, #000 50%, rgba(102,0,0,0) 70%) 0 0, -ms-linear-gradient(135deg, rgba(102,0,0,0) 49%, #000 50%, rgba(102,0,0,0) 70%) 0 0;
+  background: radial-gradient(#8a0000 4%, #5c0000 9%, rgba(102,0,0,0) 9%) 0 0, radial-gradient(#8a0000 4%, #5c0000 8%, rgba(102,0,0,0) 10%) 50px 50px, radial-gradient(rgba(153,0,0,0.8) 20%, rgba(102,0,0,0)) 50px 0, radial-gradient(rgba(153,0,0,0.8) 20%, rgba(102,0,0,0)) 0 50px, radial-gradient(#600 35%, rgba(102,0,0,0) 60%) 50px 0, radial-gradient(#600 35%, rgba(102,0,0,0) 60%) 100px 50px, radial-gradient(rgba(77,0,0,0.7), rgba(102,0,0,0)) 0 0, radial-gradient(rgba(77,0,0,0.7), rgba(102,0,0,0)) 50px 50px, linear-gradient(45deg, rgba(102,0,0,0) 49%, #000 50%, rgba(102,0,0,0) 70%) 0 0, linear-gradient(-45deg, rgba(102,0,0,0) 49%, #000 50%, rgba(102,0,0,0) 70%) 0 0;
+  background-color: #300;
+  -webkit-background-size: 100px 100px;
+  -moz-background-size: 100px 100px;
+  background-size: 100px 100px;
 }
 .flag {
   -webkit-box-shadow: 4px 4px 18px 6px rgba(0,0,0,0.6);
