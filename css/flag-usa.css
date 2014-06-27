@@ -104,4 +104,5 @@ a {
 .notice .link > img {
   width: 3.2em;
   height: 3.648em;
+  border: 0;
 }
