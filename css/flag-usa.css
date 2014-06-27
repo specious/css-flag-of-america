@@ -69,6 +69,7 @@ body {
 a {
   color: #ff0;
   text-decoration: none;
+  outline: 0;
 }
 .notice {
   font-family: Oswald;
@@ -99,4 +100,8 @@ a {
 .notice .link {
   text-shadow: none;
   display: block;
+}
+.notice .link > img {
+  width: 3.2em;
+  height: 3.648em;
 }
