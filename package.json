@@ -1,0 +1,27 @@
+{
+  "name": "css-flag-usa",
+  "version": "1.0.0",
+  "description": "USA flag (CSS experiment)",
+  "homepage": "https://github.com/specious/css-flag-usa",
+  "author": "Ildar Sagdejev <specious@gmail.com> (http://specious.github.io/)",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/specious/css-flag-usa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/specious/css-flag-usa/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "pure-css"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-html-prettify": "0.0.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-stylus": "^2.1.0",
+    "nib": "^1.1.0"
+  }
+}
